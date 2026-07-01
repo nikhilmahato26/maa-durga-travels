@@ -117,6 +117,7 @@ export default function BookingForm() {
               <option value="Any">Any Vehicle</option>
               <option value="Sedan (Dzire, Punch, Nexon)">Sedan (Dzire, Punch, etc.)</option>
               <option value="SUV (Scorpio, Ertiga, Rumion)">SUV (Scorpio, Ertiga, etc.)</option>
+              <option value="Innova Crysta">Innova Crysta</option>
             </select>
           </div>
 

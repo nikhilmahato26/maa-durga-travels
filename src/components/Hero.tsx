@@ -67,7 +67,7 @@ export default function Hero() {
           transition={{ duration: 0.8, delay: 0.2 }}
           className="text-base sm:text-lg md:text-xl text-slate-200/90 max-w-3xl mx-auto mb-10 leading-relaxed font-body"
         >
-          Affordable Car Rentals, Comfortable Outstation Trips, Reliable One-Way Taxi Services,
+          Affordable Car Rentals, Comfortable Outstation Trips (Starting at ₹12/km), Reliable One-Way Taxi Services,
           and Memorable Tour Packages — All Just One WhatsApp Away.
         </motion.p>
 

@@ -49,7 +49,7 @@ export default function OneWayTaxi() {
               </div>
 
               {/* Pricing breakdown */}
-              <div className="space-y-3.5 mb-6">
+              <div className="space-y-3 mb-6">
                 {/* Sedan */}
                 <div className="bg-white border border-slate-100 p-3 rounded-xl flex items-center justify-between shadow-xs">
                   <div className="flex items-center space-x-2">
@@ -57,7 +57,7 @@ export default function OneWayTaxi() {
                     <span className="text-xs font-semibold text-slate-700">Sedan Class</span>
                   </div>
                   <div className="text-right">
-                    <span className="text-base font-extrabold text-primary">₹{route.sedanPrice}</span>
+                    <span className="text-sm font-extrabold text-primary">₹{route.sedanPrice}</span>
                   </div>
                 </div>
 
@@ -68,24 +68,41 @@ export default function OneWayTaxi() {
                     <span className="text-xs font-semibold text-slate-700">SUV Class</span>
                   </div>
                   <div className="text-right">
-                    <span className="text-base font-extrabold text-primary">₹{route.suvPrice}</span>
+                    <span className="text-sm font-extrabold text-primary">₹{route.suvPrice}</span>
+                  </div>
+                </div>
+
+                {/* Innova Crysta */}
+                <div className="bg-white border border-slate-100 p-3 rounded-xl flex items-center justify-between shadow-xs">
+                  <div className="flex items-center space-x-2">
+                    <Car className="w-4.5 h-4.5 text-primary" />
+                    <span className="text-xs font-semibold text-slate-700">Innova Crysta</span>
+                  </div>
+                  <div className="text-right">
+                    <span className="text-sm font-extrabold text-primary">₹{route.innovaPrice}</span>
                   </div>
                 </div>
               </div>
 
               {/* Booking CTAs */}
-              <div className="grid grid-cols-2 gap-2 mt-auto">
+              <div className="grid grid-cols-3 gap-1.5 mt-auto">
                 <button
                   onClick={() => handleBookRoute(route.from, route.to, 'Sedan', route.sedanPrice)}
-                  className="bg-slate-100 hover:bg-primary hover:text-white text-primary text-[11px] font-bold py-2.5 rounded-lg transition-all text-center cursor-pointer"
+                  className="bg-slate-100 hover:bg-primary hover:text-white text-primary text-[10px] font-bold py-2.5 rounded-lg transition-all text-center cursor-pointer"
                 >
-                  Book Sedan
+                  Sedan
                 </button>
                 <button
                   onClick={() => handleBookRoute(route.from, route.to, 'SUV', route.suvPrice)}
-                  className="bg-accent hover:bg-accent-dark text-primary-dark text-[11px] font-bold py-2.5 rounded-lg transition-all text-center cursor-pointer"
+                  className="bg-slate-100 hover:bg-secondary hover:text-white text-secondary text-[10px] font-bold py-2.5 rounded-lg transition-all text-center cursor-pointer"
                 >
-                  Book SUV
+                  SUV
+                </button>
+                <button
+                  onClick={() => handleBookRoute(route.from, route.to, 'Innova Crysta', route.innovaPrice)}
+                  className="bg-accent hover:bg-accent-dark text-primary-dark text-[10px] font-bold py-2.5 rounded-lg transition-all text-center cursor-pointer"
+                >
+                  Innova
                 </button>
               </div>
             </motion.div>

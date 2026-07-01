@@ -3,6 +3,7 @@ import { Check, MessageSquare } from 'lucide-react';
 import { VEHICLES, getWhatsAppLink, buildVehicleBookingMsg } from '../data/site';
 import sedanImg from '../assets/sedan_car.png';
 import suvImg from '../assets/suv_car.png';
+import innovaImg from '../assets/innova_crysta.png';
 
 export default function VehicleRental() {
   const getVehicleImage = (imgName: string) => {
@@ -11,6 +12,8 @@ export default function VehicleRental() {
         return sedanImg;
       case 'suv':
         return suvImg;
+      case 'innova':
+        return innovaImg;
       default:
         return sedanImg;
     }

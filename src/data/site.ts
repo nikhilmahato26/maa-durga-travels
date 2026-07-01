@@ -47,6 +47,20 @@ export const VEHICLES: Vehicle[] = [
       "Premium Styling & High Ground Clearance"
     ],
     image: "suv"
+  },
+  {
+    id: "innova-crysta",
+    name: "Innova Crysta",
+    type: "SUV",
+    examples: ["Innova Crysta", "Premium MUV"],
+    pricePerDay: 2500,
+    features: [
+      "Ultra-Spacious 7-Seater Premium Cabin",
+      "Captain Seats & Advanced Climate Control",
+      "Perfect for VIP Travels, Events & Corporate Outings",
+      "Ultimate Ride Quality & Quiet Highway Cruise"
+    ],
+    image: "innova"
   }
 ];
 
@@ -56,6 +70,7 @@ export interface TaxiRoute {
   to: string;
   sedanPrice: number;
   suvPrice: number;
+  innovaPrice: number;
 }
 
 export const TAXI_ROUTES: TaxiRoute[] = [
@@ -64,28 +79,32 @@ export const TAXI_ROUTES: TaxiRoute[] = [
     from: "Bhagalpur",
     to: "Patna",
     sedanPrice: 6000,
-    suvPrice: 6500
+    suvPrice: 6500,
+    innovaPrice: 8500
   },
   {
     id: "bgp-deoghar",
     from: "Bhagalpur",
     to: "Deoghar",
     sedanPrice: 3000,
-    suvPrice: 3500
+    suvPrice: 3500,
+    innovaPrice: 5000
   },
   {
     id: "bgp-purnia",
     from: "Bhagalpur",
     to: "Purnia",
     sedanPrice: 3000,
-    suvPrice: 3500
+    suvPrice: 3500,
+    innovaPrice: 5000
   },
   {
     id: "bgp-gaya",
     from: "Bhagalpur",
     to: "Gaya",
     sedanPrice: 6000,
-    suvPrice: 7000
+    suvPrice: 7000,
+    innovaPrice: 8000
   }
 ];
 
@@ -141,7 +160,7 @@ export const TOUR_PACKAGES: TourPackage[] = [
 ];
 
 export const WHY_CHOOSE_US = [
-  { title: "Affordable Pricing", description: "Clear pricing with no hidden charges or surprises." },
+  { title: "Affordable Pricing", description: "Outstation round trips starting at just ₹12/km. Clear pricing with no hidden charges." },
   { title: "Experienced Drivers", description: "Highly skilled, licensed drivers familiar with all outstation routes." },
   { title: "Clean Vehicles", description: "Thoroughly sanitized, clean, and well-maintained fleet for your comfort." },
   { title: "Safe Journey", description: "Safety first with regularly inspected vehicles and safe driving practices." },
