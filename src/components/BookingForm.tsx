@@ -77,17 +77,15 @@ export default function BookingForm() {
             <label className="block text-xs font-semibold text-primary mb-1.5 flex items-center">
               <MapPin className="w-3.5 h-3.5 text-secondary mr-1" /> Destination
             </label>
-            <input
-              type="text"
-              placeholder="e.g. Patna Airport"
+            <select
               {...register('destination', { required: 'Destination is required' })}
-              className={`w-full bg-slate-50 text-brand-text placeholder-slate-400 text-sm px-3.5 py-3 pl-3 rounded-xl border transition-all focus:outline-none focus:ring-2 focus:ring-secondary ${
-                errors.destination ? 'border-red-400 focus:ring-red-400' : 'border-slate-200'
-              }`}
-            />
-            {errors.destination && (
-              <p className="text-red-500 text-[10px] mt-1 absolute">{errors.destination.message}</p>
-            )}
+              className="w-full bg-slate-50 text-brand-text text-sm px-3.5 py-3 rounded-xl border border-slate-200 focus:outline-none focus:ring-2 focus:ring-secondary transition-all"
+            >
+              <option value="Patna">Patna</option>
+              <option value="Deoghar">Deoghar</option>
+              <option value="Purnia">Purnia</option>
+              <option value="Gaya">Gaya</option>
+            </select>
           </div>
 
           {/* Pickup Date */}
