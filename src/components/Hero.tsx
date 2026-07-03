@@ -47,7 +47,7 @@ export default function Hero() {
         >
           <span className="w-2 h-2 rounded-full bg-accent animate-pulse" />
           <span className="text-xs sm:text-sm font-semibold tracking-wider uppercase text-slate-100">
-            #1 Car Rental & Taxi Service in Bhagalpur, Patna & Deoghar
+            #1 Car Rental & Taxi Service in Bihar & Jharkhand.
           </span>
         </motion.div>
 
@@ -85,7 +85,7 @@ export default function Hero() {
             <MessageSquare className="w-5 h-5 fill-current text-primary" />
             <span>Book on WhatsApp</span>
           </button>
-          
+
           <button
             onClick={scrollToVehicles}
             className="w-full sm:w-auto flex items-center justify-center space-x-2 bg-white/10 hover:bg-white/20 text-white font-bold px-8 py-4 rounded-xl border border-white/20 hover:border-white/40 shadow-lg backdrop-blur-md transform hover:scale-103 transition-all duration-300 cursor-pointer"
