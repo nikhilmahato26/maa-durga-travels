@@ -80,7 +80,7 @@ export default function TourPackages() {
                   </div>
 
                   <p className="text-xs text-brand-text-muted font-medium mb-5 flex items-center">
-                    <MapPin className="w-3 h-3 text-secondary mr-1" /> Departures from Bhagalpur
+                    <MapPin className="w-3 h-3 text-secondary mr-1" /> Departures from Bhagalpur, Patna & Deoghar
                   </p>
 
                   <hr className="border-slate-100 my-4" />

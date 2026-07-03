@@ -1,5 +1,6 @@
 import { Phone, MessageSquare, MapPin, Mail, Compass } from 'lucide-react';
 import { BUSINESS_INFO, getWhatsAppLink, buildGeneralBookingMsg } from '../data/site';
+import logoImg from '../assets/logo.jpg';
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -30,17 +31,19 @@ export default function Footer() {
           
           {/* Brand Info */}
           <div className="lg:col-span-5 flex flex-col items-start">
-            <a href="#home" onClick={(e) => handleLinkClick(e, '#home')} className="flex flex-col items-start mb-4 select-none">
-              <span className="text-xl sm:text-2xl font-bold tracking-tight text-white flex items-center">
-                <span className="text-accent mr-1.5 font-extrabold text-2xl">Maa Durga</span>
-                <span className="text-white font-semibold">Travels</span>
-              </span>
-              <span className="text-[10px] uppercase tracking-wider font-semibold text-slate-300 mt-[-2px]">
-                & Car Rental Bhagalpur
-              </span>
+            <a href="#home" onClick={(e) => handleLinkClick(e, '#home')} className="flex items-center space-x-3 mb-4 select-none bg-white p-2.5 rounded-2xl border border-white/10 shadow-md">
+              <img src={logoImg} alt="Maa Durga Travels & Car Rental" className="h-12 w-auto object-contain rounded-lg" />
+              <div className="flex flex-col pr-2">
+                <span className="text-[10px] uppercase tracking-widest font-extrabold text-primary leading-none">
+                  Bhagalpur • Patna
+                </span>
+                <span className="text-[10px] uppercase tracking-widest font-extrabold text-secondary mt-1 leading-none">
+                  • Deoghar
+                </span>
+              </div>
             </a>
             <p className="text-xs md:text-sm text-slate-300 leading-relaxed mb-6 font-medium max-w-sm">
-              Your premium travel partner in Bhagalpur. Offering reliable sedan and SUV rentals, outstation one-way taxis, and spiritual packages since years.
+              Your premium travel partner in Bhagalpur, Patna & Deoghar. Offering reliable sedan and SUV rentals, outstation one-way taxis, and spiritual packages since years.
             </p>
             <div className="flex space-x-3.5">
               <a

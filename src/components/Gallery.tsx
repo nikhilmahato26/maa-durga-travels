@@ -58,7 +58,7 @@ export default function Gallery() {
       title: 'Scenic Outstation Routes',
       category: 'travel',
       img: heroBg,
-      desc: 'Explore highways across Bihar & Jharkhand.'
+      desc: 'Explore highways across Bhagalpur, Patna & Deoghar.'
     }
   ];
 

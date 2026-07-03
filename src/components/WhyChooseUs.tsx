@@ -51,7 +51,7 @@ export default function WhyChooseUs() {
             Our Commitment to Excellence
           </h2>
           <p className="text-brand-text-muted mt-3 text-sm md:text-base leading-relaxed">
-            We deliver the highest standards of safety, comfort, and transparency. That is why customers trust us for outstation travel in Bhagalpur.
+            We deliver the highest standards of safety, comfort, and transparency. That is why customers trust us for outstation travel in Bhagalpur, Patna & Deoghar.
           </p>
         </div>
 

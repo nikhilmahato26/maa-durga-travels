@@ -42,7 +42,7 @@ export default function ServiceProcess() {
             Our Simple Booking Process
           </h2>
           <p className="text-brand-text-muted mt-3 text-sm md:text-base leading-relaxed">
-            Reserve your premium outstation ride from Bhagalpur in four simple steps without any complex registration.
+            Reserve your premium outstation ride in Bhagalpur, Patna & Deoghar in four simple steps without any complex registration.
           </p>
         </div>
 

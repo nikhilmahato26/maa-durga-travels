@@ -175,8 +175,8 @@ export const TESTIMONIALS = [
   {
     name: "Rajesh Kumar",
     rating: 5,
-    text: "Very affordable service. Driver was polite and punctual. The car was clean and the ride from Bhagalpur to Patna was extremely smooth.",
-    location: "Bhagalpur"
+    text: "Very affordable service. Driver was polite and punctual. The car was clean and the ride to Patna was extremely smooth.",
+    location: "Bihar"
   },
   {
     name: "Suman Devi",
@@ -193,15 +193,15 @@ export const TESTIMONIALS = [
   {
     name: "Vikram Shah",
     rating: 5,
-    text: "Best taxi service in Bhagalpur. Punctual pickup at 4 AM, highly professional driver, and neat Ertiga SUV. Recommended for family travel.",
-    location: "Bhagalpur"
+    text: "Best taxi service in Bhagalpur, Patna & Deoghar. Punctual pickup at 4 AM, highly professional driver, and neat Ertiga SUV. Recommended for family travel.",
+    location: "Patna"
   }
 ];
 
 export const FAQS = [
   {
     question: "Do you provide airport pickup?",
-    answer: "Yes, we provide premium outstation pickup and drop-off services to Patna (PAT) airport, Ranchi (IXR) airport, Bagdogra (IXB) airport, and Deoghar airport directly from Bhagalpur."
+    answer: "Yes, we provide premium outstation pickup and drop-off services to Patna (PAT) airport, Ranchi (IXR) airport, Bagdogra (IXB) airport, and Deoghar airport directly from Bhagalpur, Patna & Deoghar."
   },
   {
     question: "Can I book a vehicle for multiple days?",

@@ -21,7 +21,7 @@ export default function OneWayTaxi() {
             Popular One-Way Taxi Routes
           </h2>
           <p className="text-brand-text-muted mt-3 text-sm md:text-base leading-relaxed">
-            Travel without paying double! Pay only for your one-way journey to Patna, Deoghar, Purnia, and Gaya from Bhagalpur.
+            Travel without paying double! Pay only for your one-way journey to Patna, Deoghar, Purnia, and Gaya from Bhagalpur, Patna & Deoghar.
           </p>
         </div>
 

@@ -61,7 +61,7 @@ export default function BookingForm() {
             </label>
             <input
               type="text"
-              placeholder="e.g. Bhagalpur Station"
+              placeholder="e.g. Patna Station"
               {...register('pickup', { required: 'Pickup location is required' })}
               className={`w-full bg-slate-50 text-brand-text placeholder-slate-400 text-sm px-3.5 py-3 pl-3 rounded-xl border transition-all focus:outline-none focus:ring-2 focus:ring-secondary ${
                 errors.pickup ? 'border-red-400 focus:ring-red-400' : 'border-slate-200'

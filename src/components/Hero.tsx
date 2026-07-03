@@ -47,7 +47,7 @@ export default function Hero() {
         >
           <span className="w-2 h-2 rounded-full bg-accent animate-pulse" />
           <span className="text-xs sm:text-sm font-semibold tracking-wider uppercase text-slate-100">
-            #1 Car Rental & Taxi Service in Bhagalpur
+            #1 Car Rental & Taxi Service in Bhagalpur, Patna & Deoghar
           </span>
         </motion.div>
 
@@ -58,7 +58,7 @@ export default function Hero() {
           className="text-4xl sm:text-5xl md:text-7xl font-extrabold tracking-tight mb-6 leading-[1.1] font-heading"
         >
           Your Trusted <span className="text-accent">Travel Partner</span> <br className="hidden sm:inline" />
-          in Bhagalpur
+          in Bhagalpur, Patna & Deoghar
         </motion.h1>
 
         <motion.p

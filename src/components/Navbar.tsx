@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Menu, X, Phone, MessageSquare } from 'lucide-react';
 import { BUSINESS_INFO, getWhatsAppLink, buildGeneralBookingMsg } from '../data/site';
+import logoImg from '../assets/logo.jpg';
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -41,14 +42,16 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between gap-8">
           {/* Logo Section */}
-          <a href="#home" onClick={(e) => handleLinkClick(e, '#home')} className="flex flex-col items-start select-none flex-shrink-0">
-            <span className="text-xl sm:text-2xl font-bold tracking-tight whitespace-nowrap">
-              <span className="text-accent font-extrabold">Maa Durga </span>
-              <span className="text-primary font-semibold">Travels</span>
-            </span>
-            <span className="text-[10px] uppercase tracking-wider font-semibold text-brand-text-muted mt-[-2px] whitespace-nowrap">
-              & Car Rental Bhagalpur
-            </span>
+          <a href="#home" onClick={(e) => handleLinkClick(e, '#home')} className="flex items-center space-x-3 select-none flex-shrink-0">
+            <img src={logoImg} alt="Maa Durga Travels & Car Rental" className="h-11 sm:h-14 w-auto object-contain rounded-lg border border-slate-100/80" />
+            <div className="hidden sm:flex flex-col">
+              <span className="text-[10px] uppercase tracking-widest font-extrabold text-primary leading-none">
+                Bhagalpur • Patna
+              </span>
+              <span className="text-[10px] uppercase tracking-widest font-extrabold text-secondary mt-1 leading-none">
+                • Deoghar
+              </span>
+            </div>
           </a>
 
           {/* Desktop Navigation Links */}
