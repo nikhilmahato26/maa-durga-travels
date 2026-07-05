@@ -7,9 +7,9 @@ import bodhgayaImg from '../assets/bodhgaya_package.png';
 
 // Destination images (using Unsplash for the new tours)
 const DEST_IMAGES: Record<string, string> = {
-  deoghar: deogharImg as string,
-  tarapith: tarapithImg as string,
-  bodhgaya: bodhgayaImg as string,
+  deoghar: 'https://ryasktourism.com/wp-content/uploads/2025/05/main-temple-of-baba-baijnath.jpg.webp',
+  tarapith: 'https://5.imimg.com/data5/SELLER/Default/2025/10/554998734/KZ/EL/HN/121186906/tara-peeth-pilgrim-tour-packages-500x500.png',
+  bodhgaya: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgqJlTMQgmu6fet4F9ZF8IdX2k6xVyRFo0Awqdah7MqA&s=10',
   nepal: 'https://static.toiimg.com/thumb/msid-91006932,width-748,height-499,resizemode=4,imgsize-165776/.jpg',
   gangtok: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTC1YmU629lMyMyhYiwNsTGHbBqNMdFfEBQnzA9gWHNXFV_DaRJ1Y4Wghr-&s=10',
   darjeeling: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTM6lUplkHDkyjSdr89IO2pCDRED-8wfnk02t_16u4K6ImGJxx0KAcFS8AA&s=10',
