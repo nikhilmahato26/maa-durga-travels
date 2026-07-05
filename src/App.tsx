@@ -4,6 +4,7 @@ import BookingForm from './components/BookingForm';
 import VehicleRental from './components/VehicleRental';
 import OneWayTaxi from './components/OneWayTaxi';
 import TourPackages from './components/TourPackages';
+import OurServices from './components/OurServices';
 import WhyChooseUs from './components/WhyChooseUs';
 import ServiceProcess from './components/ServiceProcess';
 import Gallery from './components/Gallery';
@@ -35,6 +36,9 @@ export default function App() {
 
         {/* Travel packages */}
         <TourPackages />
+
+        {/* All Services */}
+        <OurServices />
 
         {/* Value Prop */}
         <WhyChooseUs />

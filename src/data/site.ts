@@ -156,6 +156,134 @@ export const TOUR_PACKAGES: TourPackage[] = [
       "Spacious Vehicle with Expert Guide Driver"
     ],
     image: "bodhgaya"
+  },
+  {
+    id: "nepal-tour",
+    name: "Nepal Tour",
+    pricePerPerson: 0,
+    duration: "4-7 Days Custom",
+    highlights: [
+      "Pashupatinath & Boudhanath Temples",
+      "Pokhara Lake & Mountain Views",
+      "Lumbini Buddhist Circuit",
+      "Border Entry Assistance Provided"
+    ],
+    image: "nepal"
+  },
+  {
+    id: "gangtok-tour",
+    name: "Gangtok Tour",
+    pricePerPerson: 0,
+    duration: "3-5 Days Custom",
+    highlights: [
+      "Nathu La Pass & Tsomgo Lake",
+      "Rumtek Monastery Darshan",
+      "Ganesh Tok & Hanuman Tok Viewpoints",
+      "Scenic Himalayan Highway Drive"
+    ],
+    image: "gangtok"
+  },
+  {
+    id: "darjeeling-tour",
+    name: "Darjeeling Tour",
+    pricePerPerson: 0,
+    duration: "2-4 Days Custom",
+    highlights: [
+      "Tiger Hill Sunrise & Kanchenjunga Views",
+      "Darjeeling Himalayan Railway (Toy Train)",
+      "Tea Garden Estate Visits",
+      "Batasia Loop & Peace Pagoda"
+    ],
+    image: "darjeeling"
+  },
+  {
+    id: "varanasi-tour",
+    name: "Varanasi Tour",
+    pricePerPerson: 0,
+    duration: "2-3 Days Custom",
+    highlights: [
+      "Ganga Aarti at Dashashwamedh Ghat",
+      "Kashi Vishwanath Temple Darshan",
+      "Sarnath Buddhist Circuit",
+      "Sunrise Boat Ride on the Ganges"
+    ],
+    image: "varanasi"
+  },
+  {
+    id: "uttarakhand-tour",
+    name: "Uttarakhand Tour",
+    pricePerPerson: 0,
+    duration: "4-7 Days Custom",
+    highlights: [
+      "Char Dham Yatra — Badrinath, Kedarnath",
+      "Haridwar & Rishikesh Spiritual Tour",
+      "Jim Corbett National Park Visit",
+      "Nainital Lake & Mussoorie Hills"
+    ],
+    image: "uttarakhand"
+  }
+];
+
+export const SERVICES = [
+  {
+    id: "car-rental-bhagalpur",
+    title: "Car Rentals in Bhagalpur",
+    icon: "map-pin",
+    description: "Reliable and affordable car rental service across Bhagalpur city and surrounding areas."
+  },
+  {
+    id: "car-rental-patna",
+    title: "Car Rental in Patna",
+    icon: "map-pin",
+    description: "Premium cab and car rental services available across Patna for local and outstation needs."
+  },
+  {
+    id: "car-rental-deoghar",
+    title: "Car Rental in Deoghar",
+    icon: "map-pin",
+    description: "Comfortable and safe car rental services in Deoghar for pilgrimages and local travel."
+  },
+  {
+    id: "airport-transfer",
+    title: "Airport Transfer",
+    icon: "plane",
+    description: "Timely and professional airport pickup & drop service to Patna, Ranchi, Bagdogra & Deoghar airports."
+  },
+  {
+    id: "wedding-car",
+    title: "Car Rental For Weddings",
+    icon: "heart",
+    description: "Beautifully decorated wedding cars for your special occasion. Make your wedding day unforgettable."
+  },
+  {
+    id: "local-cab",
+    title: "Local Cab",
+    icon: "car",
+    description: "Convenient local cab services within the city for daily commutes, errands, and meetings."
+  },
+  {
+    id: "corporate-booking",
+    title: "Corporate Booking",
+    icon: "briefcase",
+    description: "Dedicated corporate cab solutions for employee transport, client pickups, and business events."
+  },
+  {
+    id: "taxi-service",
+    title: "Taxi Service",
+    icon: "navigation",
+    description: "Professional taxi service available 24/7 across Bihar and Jharkhand for all your travel needs."
+  },
+  {
+    id: "outstation-car-rental",
+    title: "Car Rental For Outstation",
+    icon: "route",
+    description: "Comfortable and affordable outstation cab service to major cities and pilgrimage destinations."
+  },
+  {
+    id: "groom-cars",
+    title: "Groom Cars",
+    icon: "sparkles",
+    description: "Premium flower-decorated groom cars to make the groom's arrival truly grand and memorable."
   }
 ];
 

@@ -11,6 +11,7 @@ export default function Navbar() {
     { name: 'Car Rental', href: '#car-rental' },
     { name: 'One Way Taxi', href: '#one-way-taxi' },
     { name: 'Tour Packages', href: '#tour-packages' },
+    { name: 'Our Services', href: '#our-services' },
     { name: 'Why Choose Us', href: '#why-choose-us' },
     { name: 'Testimonials', href: '#testimonials' },
     { name: 'Contact', href: '#contact' },
