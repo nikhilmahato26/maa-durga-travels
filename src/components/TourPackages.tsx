@@ -2,8 +2,6 @@ import { motion } from 'framer-motion';
 import { Calendar, MapPin, CheckCircle, MessageSquare, PhoneCall } from 'lucide-react';
 import { TOUR_PACKAGES, getWhatsAppLink, buildPackageBookingMsg } from '../data/site';
 import deogharImg from '../assets/deoghar_package.png';
-import tarapithImg from '../assets/tarapith_package.png';
-import bodhgayaImg from '../assets/bodhgaya_package.png';
 
 // Destination images (using Unsplash for the new tours)
 const DEST_IMAGES: Record<string, string> = {

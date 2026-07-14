@@ -5,7 +5,7 @@ export const BUSINESS_INFO = {
   displayPhone: "+91 7061627992",
   googleMapsEmbedUrl: "https://maps.google.com/maps?q=Maa%20Durga%20Travels%20&%20Car%20Rental%20Bhagalpur&t=&z=14&ie=UTF8&iwloc=&output=embed",
   googleMapsShareUrl: "https://maps.app.goo.gl/ddkoVAjwiwN8wnPNA",
-  email: "maadurgatravelsbgp@gmail.com",
+  email: "maadurgatravelsandcarrental@gmail.com",
   address: "Bhagalpur, Bihar, India"
 };
 
